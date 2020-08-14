@@ -1,0 +1,136 @@
+
+body{
+    margin:0px;
+    padding:0px;
+    background: url(https://i.ibb.co/7zG4WrG/photo-1511406361295-0a1ff814c0ce.jpg);background-size:100% 100% ;
+
+}
+@media (min-width: 1281px) {
+.container{
+    width:100%;
+    height:39em;
+    transform-style:preserve-3d;
+    perspective:7.6em;
+    
+    
+    }
+    
+.list{
+    width:100%;
+    height:14%;
+    background-color: rgba(252, 8, 0, 0.418);
+    position:fixed;
+    top:-3%;
+    z-index:322 ;
+}
+.name{
+margin:11.1% 0 0 26.05%;
+font-size: 10.62em;
+color:rgba(255, 255, 255, 0.548);
+position:absolute;
+z-index: 1;
+}
+
+.line{
+
+    font-size: 10.62em;
+    color:rgba(25, 0, 248, 0.952);
+    margin:18.1% 0 0 26.09%;
+    z-index: 2;
+    position:relative;
+    width: 51%;
+    height: 1.3%;
+    background-color: black;
+    position: absolute;
+}
+
+.welcome{
+    color:rgb(17, 0, 255);
+    margin:33% 0 0 46%;
+    font-size: 40px;
+    width:54%;
+    border-radius: 50px;
+    perspective: 600px;
+    transform-style:preserve-3d;
+    position: absolute;
+}
+a{
+    color:rgba(255, 255, 255, 0.699);
+    text-decoration: none; 
+    background-color: rgb(255, 0, 0);
+    border-radius: 50px;
+    padding:1.2%;
+    transition: all 0.7s;
+    perspective: 711px;
+    transform-style:preserve-3d;
+    position: absolute;
+}
+.welcome a:hover{
+    transform:translatez(10px);transition: all 0.7s
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .container{
+        width:100%;
+        height:39em;
+        transform-style:preserve-3d;
+        perspective:7.6em;
+        
+        
+        }
+        
+    .list{
+        width:100%;
+        height:14%;
+        background-color: rgba(252, 8, 0, 0.418);
+        position:fixed;
+        top:-3%;
+        z-index:322 ;
+    }
+    .name{
+    margin:11.1% 0 0 26.05%;
+    font-size: 5.62em;
+    color:rgba(255, 255, 255, 0.548);
+    position:absolute;
+    z-index: 1;
+    }
+    
+    .line{
+    
+        font-size: 10.62em;
+        color:rgba(25, 0, 248, 0.952);
+        margin:18.1% 0 0 26.09%;
+        z-index: 2;
+        position:relative;
+        width: 51%;
+        height: 1.3%;
+        background-color: black;
+        position: absolute;
+    }
+    
+    .welcome{
+        color:rgb(17, 0, 255);
+        margin:36% 0 0 43%;
+        font-size: 40px;
+        width:54%;
+        border-radius: 50px;
+        perspective: 600px;
+        transform-style:preserve-3d;
+        position: absolute;
+    }
+    a{
+        color:rgba(255, 255, 255, 0.699);
+        text-decoration: none; 
+        background-color: rgb(255, 0, 0);
+        border-radius: 50px;
+        padding:1.2%;
+        transition: all 0.7s;
+        perspective: 711px;
+        transform-style:preserve-3d;
+        position: absolute;
+    }
+    .welcome a:hover{
+        transform:translatez(10px);transition: all 0.7s
+    }
+}
